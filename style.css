@@ -1,6 +1,8 @@
 /* Styles */
 
 #test {
-    border: #000000 1px solid;
-    padding: 10px 40px 40px 40px; 
+  border: #000000 1px solid;
+  padding: 10px 40px 40px 40px;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #373b44, #4286f4 );
 }

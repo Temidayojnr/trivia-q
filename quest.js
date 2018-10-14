@@ -1,10 +1,16 @@
 var pos = 0, test, test_status, question, choice, chA, chB, chC, correct= 0;
 
 var questions = [
-    ["what is 5 + 5 ?", "12", "10", "13", "B" ],
-    ["what is 5 + 6 ?", "12", "11", "13", "B"],
-    ["what is 5 + 10 ?", "12", "15", "13", "B"],
-    ["what is 5 + 55 ?", "12", "60", "13", "B"]
+    ["Which is the only American state to begin with the letter 'p'?", "Penny", "Pennsylvania", "Puntersssss", "B" ],
+    ["Name the world's biggest island ?", "Iceland", "Greenland", "Pastureland", "B"],
+    ["Name the world's biggest island ?", "AWS", "Amazon", "Sahara", "B"],
+    ["Name the world's largest ocean ?", "Indian", "pacific", "sahel", "B"],
+    ["What is the diameter of Earth ?", "12,500 miles", "8,000 miles", "11,000 miles", "B"],
+    ["Where would you find the world's most ancient forest ?", "Mexico", "Australia", "Brazil", "B"],
+    ["Which country is Prague in ?", "Estonia", "Czech", "Croatia", "B"],
+    ["What is the capital city of Spain ?", "Seville", "Madrid", "Mallorca", "B"],
+    ["Which sport does Constantino Rocca play ?", "Cricket", "Golf", "Hockey", "B"],
+    ["In football, who was nicknamed 'The Divine Ponytail' ?", "Batistuta", "Roberto Baggio", "Palacio", "B"]
 ];
 
 function _(x) {
